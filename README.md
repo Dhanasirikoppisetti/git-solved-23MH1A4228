@@ -61,13 +61,13 @@ npm run dev
 ### Advanced Experimental Mode
 
 
-# Install AI dependencies
+#### Install AI dependencies
 pip install tensorflow keras
 
-# Initialize AI models
+#### Initialize AI models
 ./scripts/init-ai-models.sh
 
-# Start with AI-enhanced mode
+#### Start with AI-enhanced mode
 npm run start:ai
 
 ### Standard Setup
