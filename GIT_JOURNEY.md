@@ -83,7 +83,48 @@ merge conflicts across multiple branches using proper Git workflows.
 
 ### Merge 2: main + conflict-simulator (6 files)
 
-[Document the second set of conflicts similarly]
+Merge 2: main + conflict-simulator (6 files)
+Conflict 1: config/logging.json
+Issue: Different log levels (info vs debug)
+Resolution: Used "info" as default, added toggle for "debug"
+Strategy: Unified under single logging configuration
+Difficulty: Medium
+Time: 10 minutes
+
+Conflict 2: scripts/backup.sh
+Issue: Backup directories differ (prod vs dev)
+Resolution: Created variables for both environments
+Strategy: Used conditional logic
+Difficulty: Medium
+Time: 10 minutes
+
+Conflict 3: README.md
+Issue: Overlapping feature descriptions
+Resolution: Combined both and cleaned duplicates
+Strategy: Merged both feature sets with clear sections
+Difficulty: Easy
+Time: 8 minutes
+
+Conflict 4: config/app-config.yaml
+Issue: Duplicate version keys
+Resolution: Retained higher version, removed duplication
+Strategy: Simplified YAML
+Difficulty: Easy
+Time: 5 minutes
+
+Conflict 5: utils/helpers.js
+Issue: Conflicting helper functions for API calls
+Resolution: Unified logic under a single function
+Strategy: Kept better-tested version
+Difficulty: Hard
+Time: 15 minutes
+
+Conflict 6: CHANGELOG.md
+Issue: Merge notes duplicated
+Resolution: Merged changelogs with clear version separation
+Strategy: Maintained chronological order
+Difficulty: Easy
+Time: 5 minutes
 
 ## Most Challenging Parts
 
