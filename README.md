@@ -27,7 +27,6 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 2. Install dependencies: `npm install`
 3. Configure environment variables
 4. Run in development mode: `npm run dev`
-5. Access dashboard at http://localhost:3000
 
 ## Development Setup
 ```bash
